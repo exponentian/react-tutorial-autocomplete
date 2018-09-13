@@ -5,11 +5,12 @@ import { Image, Glyphicon, Button } from 'react-bootstrap';
 const SongDetail = ({ song }) => (
   <div className="song-detail">
     
-    <div className="col">
+    <div className="col song-detail-left">
       <Image className="artist-thumbnail" src={ song.artworkUrl100 } alt="artist-thumbnail" thumbnail />
+      <a href={ song.previewUrl } target="_blank">Audio Preview</a>
     </div>
 
-    <div className="col">
+    <div className="col song-detail-right">
       
       <div className="song-detail-header">
         <h3>{ song.trackName }</h3> 
@@ -46,7 +47,6 @@ const SongDetail = ({ song }) => (
 
         <div className="view-btn" >
           <a href={ song.collectionViewUrl } target="_blank">Click to view more</a>
-          <a href={ song.previewUrl } target="_blank">Audio Preview</a>
         </div>
       </div>
       
