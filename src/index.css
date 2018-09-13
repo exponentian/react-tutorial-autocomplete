@@ -1,0 +1,83 @@
+.header > span {
+  font-weight: bold;
+  display: block;
+}
+
+.main-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.song-list {
+  border-bottom: 1px solid lightgray;
+  margin: 5px 0;
+}
+
+.song-list:hover {
+  color: dimgray;
+  cursor: pointer;
+}
+
+.search-result {
+  margin-bottom: 150px;
+}
+
+.song-detail {
+  display: flex;
+}
+
+.song-detail > .col {
+  flex: 50%;
+}
+
+.song-detail .artist-thumbnail {
+  display: block;
+  margin: auto;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+.song-detail-header .song-genre {
+  color: dimgray;
+}
+
+.song-detail-header > .song-price,
+.song-detail-body > .price {
+  color: maroon;
+  font-size: 20px;
+}
+
+.song-detail-body {
+  margin-top: 20px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  background-color: lightgray;
+  padding: 15px 50px;  
+}
+
+.song-detail-body > .title {
+  text-align: center;
+}
+
+.song-detail-body > .price {
+  text-align: center;
+}
+
+.song-detail-body > span {
+  display: block;
+  margin: 5px 0;
+}
+
+.song-detail-body button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.song-detail-body a {
+  color: white;
+}
+
+.song-detail-body a:hover {
+  text-decoration: none;
+}
