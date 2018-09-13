@@ -3,9 +3,9 @@
 ### Technologies: React and Bootstrap
 #### Author: Ho Seok (Brandon) Oh
 
-```
+
 This is a simple tutorial for searching data. When users type a keyword in the search field, a list of data matched with the keyword can be displayed automatically, and then users can click the data suggested on the list. I am using Mariah Carey's songs for this example.
-```
+
 
 
 #### Objectives
