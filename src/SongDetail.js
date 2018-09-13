@@ -44,9 +44,10 @@ const SongDetail = ({ song }) => (
           <Glyphicon glyph="heart-empty" /> { song.releaseDate.split("T")[0] } released
         </span>
 
-        <Button bsSize="xsmall" bsStyle="primary">
+        <div className="view-btn" >
           <a href={ song.collectionViewUrl } target="_blank">Click to view more</a>
-        </Button>
+          <a href={ song.previewUrl } target="_blank">Audio Preview</a>
+        </div>
       </div>
       
     </div>

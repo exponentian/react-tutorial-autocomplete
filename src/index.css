@@ -68,16 +68,11 @@
   margin: 5px 0;
 }
 
-.song-detail-body button {
-  display: block;
-  margin: auto;
+.song-detail-body .view-btn {
   margin-top: 20px;
 }
 
-.song-detail-body a {
-  color: white;
-}
-
-.song-detail-body a:hover {
-  text-decoration: none;
+.song-detail-body > .view-btn > a {
+  text-align: center;
+  display: block;
 }
